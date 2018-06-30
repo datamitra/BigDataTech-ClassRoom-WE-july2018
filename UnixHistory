@@ -1,0 +1,130 @@
+# BigDataTech-ClassRoom-WE-july2018https://github.com/join?source=header
+
+
+man ls
+ls --help
+ls
+pwd
+cd /
+pwd
+ls
+ls -l
+cd home
+ls -l
+cd
+pwd
+cd YARN/hadoop2/bin/
+cd
+cd -
+cd /
+pwd
+cd
+pwd
+ls -l
+mkdir unix_practic
+ls -l
+mv unix_practic practice
+ls -l
+cd practice/
+pwd
+touch --help
+touch abc
+ls -l
+mkdir def.txt
+ls -l
+rmdir def.txt/
+ls -l
+touch abc
+ls -l
+cat bac
+cat abc
+ls -l ..
+ls -al
+pwd
+cd ..
+pwd
+cd -
+cd ../../
+pwd
+cd -
+ls -l
+ls -l ..
+ls -l .. >  abc
+cat abc
+cat abc abc 
+ls -l .. >  abc
+cat abc
+wc abc
+wc --help
+wc -l abc
+ls -l .. >>  abc
+wc -l abc
+ls -l .. >  abc
+wc -l abc
+ls -l .. | wc -l
+ls -l .. | wc
+history
+echo hi welcome
+echo hi welcome > def.txt
+cat def.txt 
+echo hi welcome >> def.txt
+echo hi welcome > def.txt
+echo hi welcome >> def.txt
+cat def.txt 
+echo hi welcome >> def.txt
+cat def.txt 
+ls -l def.txt 
+chmod --help
+ls -l def.txt 
+chmod 444 def.txt 
+ls -l def.txt 
+echo hi welcome >> def.txt
+chmod 777 def.txt
+ls -l def.txt 
+cat def.txt
+echo hi welcome >> def.txt
+cat def.txt
+chmod u-w def.txt 
+ls -l def.txt 
+chmod go-w def.txt 
+ls -l def.txt 
+chmod ugo-wx def.txt 
+ls -l def.txt 
+chmod ugo-r def.txt 
+ls -l def.txt 
+chmod ugo+r def.txt 
+ls -l def.txt 
+chmod 666 def.txt
+ls -l def.txt 
+chmod 755 def.txt 
+ls -l def.txt 
+cd ..
+pwd
+ls -l
+ls -lr
+ls -lt
+ls -lrt
+ls -lh
+ls -al
+cat .bash_history 
+ls -al
+ls -al 
+ls -al >> op.txt
+cat op.txt
+wc -l op.txt
+cat op.txt
+head op.txt 
+ls -al | head
+head -5 op.txt 
+tail op.txt 
+tail -2 op.txt 
+cat -n op.txt 
+head -10 op.txt | tail -6
+cat op.txt 
+grep history op.txt 
+grep -n history op.txt 
+ls -l| grep history
+ls -al| grep history
+ls -al| grep -n history
+history
+exit
