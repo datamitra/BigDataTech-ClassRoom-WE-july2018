@@ -1,0 +1,58 @@
+package com.bdt;
+
+import java.util.StringTokenizer;
+
+public class StringManipulation {
+	public static void main(String[] args) {
+		String str="hi welcome to java string manipulation"+" abcd abcd";
+		String words[]=str.split(" ");
+		for(String word:words){
+			System.out.println(word);
+		}
+		System.out.println("---------------");
+		StringTokenizer words1=new StringTokenizer(str, "i",false);
+		while(words1.hasMoreTokens()){
+			System.out.println("string tokenizer:::"+words1.nextToken());
+		}
+	}
+}
+
+---------------------------------------------------
+
+
+
+package com.bdt;
+
+public class StringPractice {
+	public static void main(String[] abc) {
+		for (int i = 0; i < abc.length; i++) {
+			System.out.println(i+"th Argument is::::"+abc[i]);
+		}
+		//inital value, bounday check, increment or decrement
+		for (int i = abc.length-1; i >=0 ; i--) {
+			System.out.println(i+"th Argument is::::"+abc[i]);
+		}
+		System.out.println("------------");
+		//short hand for loop
+		int i=0;
+		for (String x : abc) {
+			
+			System.out.println("Inside shorhadn for loop::Argument is::::"+x);
+			i=i+1;
+			System.out.println("i value is "+i);
+		}
+		int j=0;
+		int[] v={10,20,30,40,50};
+		
+		while(j<v.length){
+			System.out.println(v[j]);
+			j=j+1;
+		}
+		
+		System.out.println("------------");
+		System.out.println("no of elements in array::"+abc.length);
+		//System.out.println(abc[4]);
+	}
+}
+
+-------------------------------
